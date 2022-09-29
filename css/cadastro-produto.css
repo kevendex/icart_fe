@@ -68,7 +68,6 @@ div#lista hr:last-child {
 div#container-cadastro {
     width: 35%;
     display: flex;
-    margin-top: 130px;
 }
 
 div#cadastro {

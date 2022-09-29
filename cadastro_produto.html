@@ -71,9 +71,16 @@
         <div id="container-cadastro">
             <form action="post">
                     <p>Produto</p>
-                    <input type="text" name="nome" class="preenchimento" placeholder="Nome:">
-                    <input type="number" name="codigo" class="preenchimento" placeholder="Cod. de barras:" min="1">
-                    <input type="number" name="quantidade" class="preenchimento" placeholder="Quantidade:" min="1">
+                    <input type="text" name="nome" class="preenchimento" placeholder="Nome:" min="1" max="50">
+                    <input type="number" name="codigo_produto" class="preenchimento" placeholder="Cod. do produto:" min="1" max="8">
+                    <input type="number" name="codigo_barras" class="preenchimento" placeholder="Cod. de barras:" min="1" max="13">
+                    <input type="number" name="cod_estabel" class="preenchimento" placeholder="Cod. do estabelecimento:" min="1" max="6">
+                    <input type="number" name="estoque" class="preenchimento" placeholder="Estoque:" min="0">
+                    <input type="number" name="preco" class="preenchimento" placeholder="Preço:" min="1">
+                    <input type="text" name="tipo" class="preenchimento" placeholder="Tipo do produto:" min="1">
+                    <p>Imagem</p>
+                    <input type="file" value="imagem" id="preenchimento" name="Imagem">
+                    <br>
                     <input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
             </form>
         </div>
