@@ -21,7 +21,7 @@
    align-items: center;
 }
 
-#lacuna {
+#lacuna, #cep, #uf, #logradouro, #localidade, #bairro {
    background-color: white;
    border: 2px solid gray;
    width: 380px;
