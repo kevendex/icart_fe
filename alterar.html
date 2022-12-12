@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro-perfil.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap" rel="stylesheet">
+    <title>Cadastro do estabelecimento</title>
+    <style>
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <div>
+                <img src="img/logo.png" id="img-header" alt="logo">
+            </div>
+        </a>
+        <div id="espaco"></div>
+        <a href="perfil.html">
+            <div style="padding-top: 5px;">
+                <img src="img/perfil.svg" id="img-header" alt="perfil">
+            </div>
+        </a>
+    </header>
+    <br><br><br><br><br><br><br>
+    <div id="container-cadastro">
+        <br><br><br>
+        <h1 id="titulo-principal">Informações do estabelecimento</h1>
+        <br><br><br><br><br>
+        <form action="" id="form-cadastro">
+            <div id="container-linhas-lacunas">
+                <div id="container-lacuna"><input type="text" name="nome_empresarial" id="lacuna" placeholder="Nome Empresarial:"></div>
+                <div id="container-lacuna"><input type="text" name="cep" id="cep" placeholder="CEP:"></div>
+                <div id="container-lacuna"><input type="text" name="telefone" id="lacuna" placeholder="Telefone:"></div>
+                <div id="container-lacuna"><input type="text" name="email" id="lacuna" placeholder="Email:"></div>
+            </div>
+            <br><br><br><br><br><br><br><br><br>
+            <div id="container-button-cadastrar">
+                <input type="button" value="Alterar" id="bto-cadastrar"><!-- colocar submit no lugar de button -->
+            </div>
+        </form>
+    </div>
+    <footer>
+        <img src="img/icart_logo.png" alt="" id="img-logo-icart">
+        <div id="espaco-footer"></div>
+        <div id="col-branca"></div>
+        <div id="meios-contato">
+            <div id="cont-contato">
+                <img src="img/email.svg" alt="" id="img-contato">
+                <div id="cont-texto-contato">
+                    <p id="texto-contato">icart@gmail.com</p>
+                </div>
+            </div>
+            <div id="cont-contato">
+                <img src="img/telefone.svg" alt="" id="img-contato">
+                <div id="cont-texto-contato">
+                    <p id="texto-contato">(19) 99186-7097</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
